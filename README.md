@@ -3,6 +3,8 @@
 ## Deployment
 The application is deployed using Vercel. [Live Demo] https://shopper-ecommerce-six.vercel.app/
 
+![ecommerce website home](https://github.com/ayushmitra06/shopper-ecommerce/assets/89930295/1181aeb2-4a0c-4dec-86f4-ad9174903f96)
+
 ## Overview
 
 This is an eCommerce application built with React and Firebase, designed to facilitate online shopping. Users can browse products, add them to cart, place orders, and manage their accounts.
