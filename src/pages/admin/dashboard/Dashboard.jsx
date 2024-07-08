@@ -6,7 +6,7 @@ import DashboardTab from './DashboardTab';
 
 function Dashboard() {
     const context = useContext(myContext)
-    const { mode} = context
+    const { mode, product, order, user} = context
   return (
     <Layout>
         <section className="text-gray-600 body-font mt-10 mb-10">
@@ -17,7 +17,7 @@ function Dashboard() {
                             <div className="text-purple-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
                                 <FaUserTie size={50} />
                             </div>
-                            <h2 className="title-font font-medium text-3xl text-black fonts1" style={{ color: mode === 'dark' ? 'white' : ''}}>10</h2>
+                            <h2 className="title-font font-medium text-3xl text-black fonts1" style={{ color: mode === 'dark' ? 'white' : ''}}>{product.length}</h2>
                             <p className=" text-purple-500  font-bold" style={{ color: mode === 'dark' ? 'white' : ''}}>Total Products</p>
                         </div>
                     </div>
@@ -26,7 +26,7 @@ function Dashboard() {
                             <div className="text-purple-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
                                 <FaUserTie size={50} />
                             </div>
-                            <h2 className="title-font font-medium text-3xl text-black fonts1" style={{ color: mode === 'dark' ? 'white' : ''}}>10</h2>
+                            <h2 className="title-font font-medium text-3xl text-black fonts1" style={{ color: mode === 'dark' ? 'white' : ''}}>{order.length}</h2>
                             <p className=" text-purple-500  font-bold" style={{ color: mode === 'dark' ? 'white' : ''}}>Total Orders</p>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ function Dashboard() {
                             <div className="text-purple-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
                                 <FaUserTie size={50} />
                             </div>
-                            <h2 className="title-font font-medium text-3xl text-black fonts1" style={{ color: mode === 'dark' ? 'white' : ''}}>20</h2>
+                            <h2 className="title-font font-medium text-3xl text-black fonts1" style={{ color: mode === 'dark' ? 'white' : ''}}>{user.length}</h2>
                             <p className=" text-purple-500  font-bold" style={{ color: mode === 'dark' ? 'white' : ''}}>Total Users</p>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ function Dashboard() {
                             <div className="text-purple-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
                                 <FaUserTie size={50} />
                             </div>
-                            <h2 className="title-font font-medium text-3xl text-black fonts1" style={{ color: mode === 'dark' ? 'white' : ''}}>20</h2>
+                            <h2 className="title-font font-medium text-3xl text-black fonts1" style={{ color: mode === 'dark' ? 'white' : ''}}>{product.length}</h2>
                             <p className=" text-purple-500  font-bold" style={{ color: mode === 'dark' ? 'white' : ''}}>Total Products</p>
                         </div>
                     </div>
