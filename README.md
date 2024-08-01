@@ -1,8 +1,47 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Deployment
+The application is deployed using Vercel. [Live Demo] https://shopper-ecommerce-six.vercel.app/
 
-Currently, two official plugins are available:
+![ecommerce website home](https://github.com/ayushmitra06/shopper-ecommerce/assets/89930295/1181aeb2-4a0c-4dec-86f4-ad9174903f96)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
+
+This is an eCommerce application built with React and Firebase, designed to facilitate online shopping. Users can browse products, add them to cart, place orders, and manage their accounts.
+
+## Features
+
+- **Product Listings**: Display products with images, descriptions, and prices.
+- **Shopping Cart**: Add/remove products to/from cart.
+- **User Authentication**: Login and registration for users.
+- **Order Management**: Place and track orders.
+- **Admin Dashboard**: Manage products and orders.
+
+## Technologies Used
+
+- **Frontend**: React, React Router, Tailwind CSS, Redux
+- **Backend**: Firebase (Firestore, Authentication)
+
+## Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## Contributing
+Feel free to contribute by forking the repository and submitting pull requests.
+
