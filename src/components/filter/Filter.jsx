@@ -6,11 +6,8 @@ function Filter() {
     const { mode, searchkey, setSearchkey, filterType, setFilterType,
         filterPrice, setFilterPrice, product } = context
 
-    // console.log(product)
-
     const uniqueCategories = [...new Set(product.map(item => item.category))];
     const uniquePrices = [...new Set(product.map(item => item.price).filter(price => price))];
-    // console.log(uniquePrices)
 
     return (
         <div className=' container mx-auto px-4 mt-5 '>
